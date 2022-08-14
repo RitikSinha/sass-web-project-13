@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+:root {
+  --blue: #7030cc;
+  --btn: #1bbcef;
+  --text: #353535;
+  --ltext: #4c4e42;
+  --code: #faeaeb;
+  --data: #fbf0ee;
+  --secure: #e9f4f6;
+  --support: #f2e7f5;
+}
+.hero {
+  background-color: var(--blue);
+  color: #fff;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+}
+/* navbar */
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+.list {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  align-items: center;
+}
+.list-item {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.list-item:hover {
+  color: var(--btn);
+}
+.logo {
+  width: 150px;
+}
+.btn-nav {
+  background-color: var(--btn);
+  padding: 10px 30px;
+  border: none;
+  color: #fff;
+}
+
+/* main */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.heading {
+  font-size: 3.5rem;
+  width: 30vw;
+}
+
+.subheading {
+  margin-top: 20px;
+  width: 30vw;
+}
+
+.hero-img {
+  width: 40vw;
+  margin-bottom: 60px;
+}
+
+/* system section */
+
+.system {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.saas {
+  width: 40vw;
+}
+.icon {
+  width: 20px;
+}
+.right h1 {
+  font-size: 2rem;
+  width: 30vw;
+}
+.list-box {
+  margin-left: 20px;
+}
+.list-item-box h1 {
+  font-size: 1.5rem;
+}
+.list-item-box p {
+  width: 30vw;
+}
+
+/* features */
+.features h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.icons-card {
+  width: 40px;
+}
+.icon-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.web {
+  background-color: var(--code);
+}
+.ana {
+  background-color: var(--data);
+}
+.secure {
+  background-color: var(--secure);
+}
+.support {
+  background-color: var(--support);
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  text-align: center;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.btm {
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.btm p {
+  font-size: 0.8rem;
+}
+.active {
+  background-color: var(--blue);
+  color: #fff;
+}
