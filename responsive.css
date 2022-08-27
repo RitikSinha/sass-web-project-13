@@ -1,0 +1,44 @@
+@media screen and (max-width: 1140px) {
+  .list {
+    display: none;
+  }
+  .main {
+    padding: 40px 10px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .main {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .heading {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .subheading {
+    width: 100%;
+  }
+  .hero-img {
+    width: 100%;
+  }
+  .system {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .saas {
+    width: 100%;
+  }
+  .right h1 {
+    width: 100%;
+  }
+  .list-item-box {
+    margin-top: 20px;
+  }
+  /* features */
+  .cards {
+    flex-direction: column;
+  }
+  .card {
+    margin-top: 20px;
+  }
+}
